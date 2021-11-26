@@ -10,9 +10,9 @@
     <center>
         <h1>Gerenciamento do cardápio</h1>
         <h2>
-            <a href="/new">Adicionar novo prato</a>
+            <a href="new">Adicionar novo prato</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/list">Lista de pratos</a>
+            <a href="list">Lista de pratos</a>
              
         </h2>
     </center>
@@ -40,7 +40,7 @@
             <tr>
                 <th>Nome: </th>
                 <td>
-                    <input type="text" name="title" size="45"
+                    <input type="text" name="nome" size="45"
                             value="<c:out value='${prato.nome}' />"
                         />
                 </td>
@@ -56,7 +56,7 @@
             <tr>
                 <th>Preço: </th>
                 <td>
-                    <input type="text" name="price" size="5"
+                    <input type="text" name="preco" size="5"
                             value="<c:out value='${prato.preco}' />"
                     />
                 </td>
