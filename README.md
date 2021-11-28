@@ -2,6 +2,8 @@
 Projeto da matéria Técnicas de Desenvolvimento Web
 
 ## Tecnologias utilizadas
+JSF
+
 JSP
 
 Servlet v3.1.0
