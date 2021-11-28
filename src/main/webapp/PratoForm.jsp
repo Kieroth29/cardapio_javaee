@@ -18,10 +18,10 @@
 	</div>
     <div align="center">
 		<c:if test="${prato != null}">
-            <form action="update" method="post">
+			<form action="update" method="post">
         </c:if>
         <c:if test="${prato == null}">
-            <form action="insert" method="post">
+			<form action="insert" method="post">
         </c:if>
         <table>
 			<h4>
@@ -44,7 +44,7 @@
 			<tr>
 				<th>Ingredientes: </th>
 				<td>
-                    <input type="text" placeholder="Ingredientes" name="ingredientes" size="45" max="200" value="<c:out value='${prato.ingredientes}'/>"/>
+					<input type="text" placeholder="Ingredientes" name="ingredientes" size="45" max="200" value="<c:out value='${prato.ingredientes}'/>"/>
                 </td>
 			</tr>
 			<tr>
